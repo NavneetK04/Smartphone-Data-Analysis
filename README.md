@@ -7,7 +7,7 @@ This project involves a comprehensive analysis of smartphone data scraped from t
 
 ## **Technologies Used**
 - **Programming Language:** Python  
-- **Libraries:** Selenium, Pandas, NumPy, Seaborn, Matplotlib  
+- **Libraries:** Selenium, bs4, Pandas, NumPy, Seaborn, Matplotlib  
 - **Tools:** Jupyter Notebook  
 
 ---
@@ -15,7 +15,7 @@ This project involves a comprehensive analysis of smartphone data scraped from t
 ## **Project Workflow**
 
 ### **1. Data Collection**
-The smartphone data, including specifications, pricing, and ratings, was scraped from the Smartprix website using **Selenium**. This involved dynamic handling of web elements to extract accurate and relevant information.
+The smartphone data, including specifications, pricing, and ratings, was scraped from the Smartprix website using **Selenium** and **BeautifulSoup**. This involved dynamic handling of web elements to extract accurate and relevant information.
 
 ### **2. Data Cleaning**
 The raw data was cleaned and processed using **Pandas** and **NumPy** to ensure uniformity and consistency. Missing values were handled, and numerical columns were standardized for analysis.
